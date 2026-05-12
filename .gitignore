@@ -1,0 +1,16 @@
+venv/
+.env
+__pycache__/
+*.pyc
+
+models/*.pkl
+figures/
+
+.DS_Store
+.vscode/
+
+*.html
+*.htm
+*_files/
+
+data/
