@@ -148,9 +148,8 @@ ids-ml-project/
 │   ├── agents.py                 # Multi-agent orchestration
 │   ├── prompts.py                # Agent prompt templates
 │   ├── api_server_advanced.py    # FastAPI inference server
-│   ├── predict.py                # Standalone prediction utility
-│   ├── train_model_advanced.py   # Original training script
-│   └── train_model_improved.py   # Improved training script (class_weight + SMOTE)
+│   ├── predict.py                # Standalone prediction utilit
+│   └── train_model_advanced.py  # Improved training script (class_weight + SMOTE)
 │
 ├── models/
 │   └── ids_model_advanced.pkl    # Trained model pipeline (generated)
@@ -348,5 +347,4 @@ All core implementation, system design decisions, model evaluation, experimental
 ## 📚 Academic Context
 
 **Module:** CI7526 – Cyber and Artificial Intelligence (Applications)  
-**Institution:** Kingston University London  
 **Focus areas:** Agentic AI, AI co-production, cybersecurity workflows, security operations automation
