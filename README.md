@@ -1,10 +1,10 @@
-# 🛡️ Agentic AI Intrusion Detection & Threat Intelligence Platform
+# Agentic AI Intrusion Detection & Threat Intelligence Platform
 
 > A multi-agent AI cybersecurity platform that combines machine learning intrusion detection with AI-driven threat analysis, risk classification, incident response recommendation, and SOC-style reporting.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements an **Agentic AI workflow for cybersecurity operations**.
 
@@ -26,9 +26,9 @@ Kingston University London
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-### 🔍 Machine Learning IDS
+###  Machine Learning IDS
 
 - RandomForest-based multi-class intrusion detection
 - Trained on the NSL-KDD benchmark dataset (125,973 training samples, 22,544 test samples)
@@ -37,7 +37,7 @@ Kingston University London
 - Feature importance analysis for explainability (Top 20 features visualised)
 - Three experiments conducted: baseline, class_weight balancing, SMOTE oversampling
 
-### 🤖 Multi-Agent AI Workflow
+###  Multi-Agent AI Workflow
 
 The platform uses four specialised AI agents in a sequential pipeline:
 
@@ -48,7 +48,7 @@ The platform uses four specialised AI agents in a sequential pipeline:
 | Response Recommendation Agent | Produces prioritised, actionable incident response steps |
 | SOC Report Generator Agent | Compiles all agent outputs into a structured SOC incident report |
 
-### 🛡️ Cybersecurity Capabilities
+###  Cybersecurity Capabilities
 
 - AI-assisted threat intelligence generation
 - SOC workflow simulation and automation
@@ -58,7 +58,7 @@ The platform uses four specialised AI agents in a sequential pipeline:
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 Three experiments were conducted to evaluate and improve classifier performance on KDDTest+.
 
@@ -102,7 +102,7 @@ The dominant feature is `num_4` (connection duration, importance ≈ 0.11), foll
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 ```
 Network Traffic Features (41 NSL-KDD features)
@@ -122,7 +122,7 @@ SOC Incident Report → Streamlit UI
 
 ---
 
-## 🖥️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -138,7 +138,7 @@ SOC Incident Report → Streamlit UI
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ids-ml-project/
@@ -170,7 +170,7 @@ ids-ml-project/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone repository
 
@@ -209,7 +209,7 @@ OPENAI_API_KEY=your_api_key_here
 
 ---
 
-## ▶️ Running the Platform
+##  Running the Platform
 
 > ⚠️ **The API server and Streamlit UI must run in two separate terminals simultaneously.**  
 > The Streamlit frontend communicates with the FastAPI backend at runtime — starting only one will result in prediction errors.
@@ -248,7 +248,7 @@ Both processes must be running for the platform to function end-to-end.
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 ### `POST /predict`
 
@@ -279,7 +279,7 @@ Accepts a JSON body with 41 NSL-KDD network features and returns the predicted a
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 For production deployment, the following controls are recommended:
 
@@ -294,7 +294,7 @@ For production deployment, the following controls are recommended:
 
 ---
 
-## ⚖️ Legal & Ethical Considerations
+##  Legal & Ethical Considerations
 
 - **GDPR:** Network traffic metadata may constitute personal data. A Data Protection Impact Assessment (DPIA) is required before live deployment (UK GDPR Article 35).
 - **Computer Misuse Act 1990:** This system must only be deployed on networks for which explicit authorisation has been obtained.
@@ -304,7 +304,7 @@ For production deployment, the following controls are recommended:
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 | Limitation | Details |
 |---|---|
@@ -316,7 +316,7 @@ For production deployment, the following controls are recommended:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 | Priority | Improvement | Rationale |
 |---|---|---|
@@ -330,7 +330,7 @@ For production deployment, the following controls are recommended:
 
 ---
 
-## 🤝 Acknowledgement of Generative AI
+##  Acknowledgement of Generative AI
 
 Generative AI tools were used for the following purposes in accordance with Kingston University GAI policy:
 
@@ -344,7 +344,7 @@ All core implementation, system design decisions, model evaluation, experimental
 
 ---
 
-## 📚 Academic Context
+##  Academic Context
 
 **Module:** CI7526 – Cyber and Artificial Intelligence (Applications)  
 **Focus areas:** Agentic AI, AI co-production, cybersecurity workflows, security operations automation
