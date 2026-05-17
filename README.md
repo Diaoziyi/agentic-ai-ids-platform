@@ -332,15 +332,15 @@ For production deployment, the following controls are recommended:
 
 ##  Acknowledgement of Generative AI
 
-Generative AI tools were used for the following purposes in accordance with Kingston University GAI policy:
+Generative AI tools were used during this project in accordance with Kingston University guidance on acceptable AI use.
 
-| Tool | Purpose | Extent |
+| Tool | Usage | Extent |
 |---|---|---|
-| GitHub Copilot | Code completion for FastAPI and sklearn boilerplate | Low — all suggestions reviewed and modified independently |
-| ChatGPT | Structuring agent prompt templates; grammar refinement in documentation | Medium — structure adapted; all analysis and reasoning completed independently |
-| Claude (Anthropic) | Constructive review of documentation; identifying coverage gaps | Low — used as a reviewer; all content written independently |
+| GitHub Copilot | Assisted with boilerplate code generation for FastAPI endpoints and sklearn workflows | Low — suggestions were reviewed, tested, and modified where necessary |
+| ChatGPT | Assisted with structuring documentation sections, refining wording, and brainstorming prompt workflow ideas | Medium — outputs were adapted and critically reviewed before inclusion |
+| Claude (Anthropic) | Used for reflective feedback on documentation structure and identifying potential coverage gaps | Low — used primarily as a review assistant |
 
-All core implementation, system design decisions, model evaluation, experimental analysis, and reasoning are the original work of the author.
+All final implementation, experimental evaluation, system design decisions, security analysis, and conclusions represent the author’s own work and understanding. All AI-generated assistance was reviewed critically and integrated selectively.
 
 ---
 
