@@ -217,7 +217,7 @@ OPENAI_API_KEY=your_api_key_here
 ### Step 1 — Train the model (one-time setup)
 
 ```bash
-python3 src/train_model_improved.py
+python3 src/train_model_advanced.py
 ```
 
 This trains the RandomForest model with `class_weight="balanced"` and runs all three experiments (baseline, class_weight balancing, SMOTE). The final model is saved to `models/ids_model_advanced.pkl`.
